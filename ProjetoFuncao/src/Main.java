@@ -1,6 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        
+
+    }
+
+
+    public static String inverteString(String s) {
+
+        s = new StringBuilder(s).reverse().toString();
+        return s;
     }
 
     public static double media(int num1, int num2, int num3, int num4) {
